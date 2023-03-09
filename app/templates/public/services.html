@@ -1,0 +1,114 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title%} Helium Soft: Contact {% endblock %}
+
+{% block main%}
+
+<div class="inner-banner">
+    <section class="w3l-breadcrumb">
+        <div class="container">
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> Services</li>
+            </ul>
+        </div>
+    </section>
+</div>
+<!-- banner bottom shape -->
+<div class="position-relative">
+    <div class="shape overflow-hidden">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+<!-- banner bottom shape -->
+<section class="w3l-servicesblock py-5" id="">
+    <div class="container py-lg-5 py-md-3">
+        <div class="row">
+            <div class="col-lg-6 about-right-faq align-self">
+                <span class="title-small mb-2">Best for you</span>
+                <h3 class="title-big mx-0"> Scale Up Your Business! Best Solutions for Clients.</h3>
+                <p class="mt-lg-4 mt-3 mb-lg-5 mb-4">We are  here to give your business the perfect online presence it deserve. We are the sure plug and best solution to all your web challanges.</p>
+                <!-- <div class="two-grids mt-md-0 mt-md-5 mt-4">
+                    <div class="grids_info">
+                        <h4>Media Promotion</h4>
+                        <p class="">Pellen tesque libero ut justo,
+                            ultrices in ligula.</p>
+                    </div>
+                    <div class="grids_info">
+                        <h4>Infographics Content</h4>
+                        <p class="">Pellen tesque libero ut justo,
+                            ultrices in ligula.</p>
+                    </div>
+                </div> -->
+            </div>
+            <div class="col-lg-3 col-6 left-wthree-img mt-lg-0 mt-sm-5 mt-4">
+                <img src="{{url_for('static', filename='images/services2.jpg')}}" alt="" class="img-fluid radius-image">
+            </div>
+            <div class="col-lg-3 col-6  left-wthree-img mt-lg-0 mt-sm-5 mt-4">
+                <img src="{{url_for('static', filename='images/services3.jpg')}}" alt="" class="img-fluid radius-image">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /bottom-grids-->
+<section class="w3l-bottom-grids-6 py-5" id="services">
+    <div class="container py-lg-5 py-md-4">
+        <h6 class="title-small text-center">Our Services</h6>
+        <h3 class="title-big mb-md-5 mb-4 text-center">Let's check our Services</h3>
+        <div class="grids-area-hny main-cont-wthree-fea row">
+            <div class="col-lg-4 col-md-6 grids-feature">
+                <div class="area-box">
+                    <span class="fa fa-desktop mt-0"></span>
+                    <h4><a href="#feature" class="title-head">Web Design and Development</a></h4>
+                    <p class="my-3">Get the perfect website for your business. We design and develop customized website for your small and middle scaled business.</p>
+                    <!-- <a href="#url" class="more">Read More </a> -->
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
+                <div class="area-box">
+                    <span class="fa fa-mobile mt-0"></span>
+                    <h4><a href="#feature" class="title-head">Mobile App Development</a></h4>
+                    <p class="my-3">Let your Ideas sit just in the hands of your customers, we provide mobile app development to help your business reach out to the customers you wanted.</p>
+                    <!-- <a href="#url" class="more">Read More </a> -->
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-4">
+                <div class="area-box">
+                    <span class="fa fa-leanpub mt-0"></span>
+                    <h4><a href="#feature" class="title-head">Programming and Web Tutorials</a></h4>
+                    <p class="my-3">Start a career in tech. We offer tutorials on web skills and programming. Ranging from HTML, CSS, Javascript, PHP and lots more</p>
+                    <!-- <a href="#url" class="more">Read More </a> -->
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 grids-feature mt-lg-5 mt-4">
+                <div class="area-box">
+                    <span class="fa fa-google mt-0"></span>
+                    <h4><a href="#feature" class="title-head">Search Engine Marketing</a></h4>
+                    <p class="my-3">Get more customers brisking to your products. We let your business get passed it's limits by advertising your products and scaling up your SEO</p>
+                    <!-- <a href="#url" class="more">Read More </a> -->
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 grids-feature mt-lg-5 mt-4">
+                <div class="area-box">
+                    <span class="fa fa-camera-retro mt-0"></span>
+                    <h4><a href="#feature" class="title-head">Graphic Designs</a></h4>
+                    <p class="my-3">We provide the best graphic content and designs just as you want them. With our team of profesional designers we get you covered</p>
+                    <!-- <a href="#url" class="more">Read More </a> -->
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 grids-feature mt-lg-5 mt-4">
+                <div class="area-box">
+                    <span class="fa fa-pencil-square-o mt-0"></span>
+                    <h4><a href="#feature" class="title-head">Content Writing</a></h4>
+                    <p class="my-3">We deliver the best write-ups for your site, blogs etc. Inspire your audience and customers with stunning article and message</p>
+                    <!-- <a href="#url" class="more">Read More </a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //bottom-grids-->
+<hr>
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title%} Helium Soft: Contact {% endblock %}
+
+{% block main%}
+
+<div class="inner-banner">
+    <section class="w3l-breadcrumb">
+        <div class="container">
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> Contact</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<!-- contact block -->
+<!-- contact1 -->
+<section class="w3l-contact-1 py-5" id="contact">
+    <div class="contacts-9 py-lg-5 py-md-4">
+        <div class="container">
+            <div class="d-grid contact-view">
+                <div class="cont-details">
+                    <h4 class="title-small">Get in touch</h4>
+                    <h3 class="title-big mb-4">Contact Us</h3>
+                    <p class="mb-sm-5 mb-4">Start working with us, that can provide everything you need to generate awareness, upgarde your business and
+                        connect. <br> We guarantee that you’ll have the best experience with us</p>
+                    <div class="cont-top">
+                        <div class="cont-left text-center">
+                            <span class="fa fa-phone text-primary"></span>
+                        </div>
+                        <div class="cont-right">
+                            <h6>Phone number</h6>
+                            <p><a href="tel:+(234) 813 254 7926">+(234) 813 254 7926</a></p>
+                        </div>
+                    </div>
+                    <div class="cont-top margin-up">
+                        <div class="cont-left text-center">
+                            <span class="fa fa-envelope-o text-primary"></span>
+                        </div>
+                        <div class="cont-right">
+                            <h6>Send Email</h6>
+                            <p><a href="chijiubaonyedikachukwu@gmail.com" class="mail">chijiubaonyedikachukwu@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-content-9">
+                    <h5 class="mb-sm-4 mb-3">Drop us a line</h5>
+                    <form action="https://sendmail.w3layouts.com/submitForm" method="post">
+                        <div class="twice-two">
+                            <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder="Name"
+                                required="">
+                            <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email"
+                                required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="w3lSubject" id="w3lSubject"
+                                placeholder="Subject" required="">
+                        </div>
+                        <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Message"
+                            required=""></textarea>
+                        <div class="text-right">
+                            <button type="submit" class="btn btn-primary btn-style mt-4">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

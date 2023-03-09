@@ -1,0 +1,94 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title%} Helium Soft: About {% endblock %}
+
+{% block main%}
+
+<div class="inner-banner">
+    <section class="w3l-breadcrumb">
+        <div class="container">
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="/">Home</a></li>
+                <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> About Us</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<!-- about page about section -->
+<section class="w3l-index3" id="about">
+    <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-3">
+            <div class="row">
+                <div class="col-lg-6 mb-lg-0 mb-md-5 mb-4 align-self">
+                    <h3 class="title-small"> About us</h3>
+                    <h3 class="title-big mx-0 text-center">We are Built for Business! Explore Us Today </h3>
+                    <p class="mt-md-4 mt-3">The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task at hand. &#160;&#160;&#160; ~ <i>Vince Lombardi</i></p>
+                    <p class="mt-3 text-center">We are the best team of developers and great minds, working hard to give you an ideal experience.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img src="{{ url_for('static', filename='images/about3.jpg') }}" alt="" class="radius-image-full img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //about page about section -->
+
+
+<section class="w3l-content-4 py-5" id="why">
+    <div class="content-4-main py-lg-5 py-md-4">
+        <div class="container">
+            <div class="content-info-in row">
+                <div class="content-left col-lg-6">
+                    <h3 class="title-small"> Why choose us</h3>
+                    <h3 class="title-big mx-0 text-center">Save Time & Effort, Choose Us Now</h3>
+                    <p class="mt-md-4 mt-3">
+                        Why worry about getting a customized website ? Helium Soft can save you the stress of such anxiety. Its our job and priority to save your time and effort by providing you the best online servies, just as you want them.
+                        We focus on the needs of small to middle market businesses to improve their online presence.</p>
+                    <a href="/contact" class="btn btn-style btn-primary btn-sm mt-md-5 mt-4"> Contact Us </a>
+                </div>
+                <div class="content-right col-lg-6 pl-lg-4 mt-lg-0 mt-5">
+                    <div class="row content4-right-grids mb-lg-5 mb-4">
+                        <div class="col-2 content4-right-icon">
+                            <div class="content4-icon">
+                                <span class="fa fa-cogs"></span>
+                            </div>
+                        </div>
+                        <div class="col-10 content4-right-info">
+                            <h6><a href="#url">Fast and Reliable</a></h6>
+                            <p class="text-center">With our great team of developers and great minds we deliver our services and product at the speed of light, and of course you can count on us.</p>
+                        </div>
+                    </div>
+                    <div class="row content4-right-grids mb-lg-5 mb-4">
+                        <div class="col-2 content4-right-icon">
+                            <div class="content4-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                        </div>
+                        <div class="col-10 content4-right-info">
+                            <h6><a href="#url"> Dedicated Team Member </a></h6>
+                            <p class="text-center">We are a coordinated team, working together to make your idea come alive.</p>
+                        </div>
+                    </div>
+                    <div class="row content4-right-grids">
+                        <div class="col-2 content4-right-icon">
+                            <div class="content4-icon">
+                                <span class="fa fa-support"></span>
+                            </div>
+                        </div>
+                        <div class="col-10 content4-right-info">
+                            <h6><a href="#url"> Customer Relationship</a></h6>
+                            <p class="text-center">We provide the best customer relationship. It's our responsibilty to see that our customers are happy with our services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+{% endblock %}

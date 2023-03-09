@@ -1,0 +1,101 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title%} Helium Soft: Home {% endblock %}
+
+{% block main%}
+<!-- banner section -->
+<section id="home" class="w3l-banner py-5">
+    <div class="container py-lg-5 py-md-4 mt-lg-0 mt-5">
+        <div class="row align-items-center py-lg-5 py-4 mt-4">
+          <div class="col-lg-3"></div>
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="mb-md-4 mb-3 text-center">We Know What's Best For Your Business.</h3>
+                <p class="text-center">Make your idea come alive, move from the realm of ideas to the realm of realities.
+                Helium Soft bringing ideas to life.</p>
+                <div class="col-lg-12">
+                    <center><a class="btn btn-primary btn-style" href="/about"> Contact Us </a></center>
+                    <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- //banner section -->
+
+<!-- /bottom-grids our services-->
+	<section class="w3l-bottom-grids-6 py-5" id="features">
+		<div class="container py-lg-5 py-md-4">
+            <div class="text-center">
+                <span class="title-small">Our Services</span>
+                <h3 class="title-big mb-sm-5 mb-4 pb-sm-0 pb-2">Provide Awesome Services</h3>
+            </div>
+			<div class="grids-area-hny main-cont-wthree-fea row">
+				<div class="col-lg-3 col-md-6 grids-feature">
+					<div class="area-box">
+						<h4><a href="#feature" class="title-head text-center">Web Design and Development</a></h4>
+						<span class="fa fa-desktop"></span>
+						<p class="text-center">Discover, Create the Perfect Site for Product</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 grids-feature mt-sm-0 mt-4">
+					<div class="area-box">
+						<h4><a href="#feature" class="title-head text-center">Mobile App Development</a></h4>
+						<span class="fa fa-mobile"></span>
+						<p class="text-center">Ideal Mobile App for Your Business</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 grids-feature mt-lg-0 mt-4">
+					<div class="area-box">
+						<h4><a href="#feature" class="title-head text-center">Search Engine Marketing</a></h4>
+						<span class="fa fa-google"></span>
+						<p class="text-center">Marketing Strategy and SEO Optimizations.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 grids-feature mt-lg-0 mt-4">
+					<div class="area-box">
+						<h4><a href="#feature" class="title-head text-center">Programming and Web Tutorials</a></h4>
+						<span class="fa fa-leanpub"></span>
+						<p class="text-center">Upgrade Now by Learning How to Code</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //bottom-grids end of our sevices-->
+
+
+<!-- home page about section -->
+<section class="w3l-index3" id="about">
+    <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img src="{{ url_for('static', filename='images/about.jpg') }}" alt="" class="radius-image-full img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-md-5 mt-4 align-self">
+                    <h3 class="title-big mx-0 text-center">Passion, Dedication, Hard Work and a lot of Coffee.</h3>
+                    <p class="mt-md-4 mt-3">The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task at hand. &#160;&#160;&#160; ~ <i>Vince Lombardi</i></p>
+                    <p class="mt-3 text-center">We are the best team of developers and great minds, working hard to give you an ideal experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //home page about section -->
+
+<!-- middle -->
+<div class="middle py-5">
+    <div class="container py-lg-5 py-md-4">
+        <div class="welcome-left text-center py-lg-4">
+            <h3 class="title-big">We Are Creative Dreamers and Innovators</h3>
+            <p>We focus on the needs of small to middle market businesses to improve their online presence. Start working with us, that can provide everything you need.</p>
+            <a href="contact.html" class="btn btn-style btn-primary mt-sm-5 mt-4">Contact Us</a>
+        </div>
+    </div>
+</div>
+<!-- //middle -->
+
+{% endblock main %}
